@@ -17,7 +17,7 @@ Successful open source projects require clear, concise, and informative document
 
 ### Setup
 
-`git clone <url-added-later>`
+`git clone https://github.com/bbgrabbag/demo-component.git`
 
 Your project directory should have the following folders / files:
 ```

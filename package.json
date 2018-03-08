@@ -6,6 +6,7 @@
   "peerDependencies": {
     "react": "^15.5.4"
   },
+  "repository": "https://github.com/bbgrabbag/demo-component.git",
   "dependencies": {
     "react": "^15.5.4",
     "webpack": "^2.6.1"
