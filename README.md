@@ -131,6 +131,18 @@ export default class DemoComponent extends Component {
 ```
 That was easy.
 
+**Notes on Designing Components**
+
+This is just a demo but there are a few things to keep in mind when building a React Component for the open source community:
+- Reusability
+  - Your component should be easily importable into any part of someone's project.
+- Configurability
+  - Anticipate a wide area of use cases; don't pigeon-hole your user.
+  - Create a balance between ease-of-use and complexity. It should work out of the box with little tinkering, but also provide for more advanced functionality if needed.
+- Independence
+  - Don't assume the existence of other dependencies, or at least make it clear when they are needed.
+  - Should function on its own without relying on an implicit environment.
+
 ### Testing the Component
 Components can be major projects on their own. It would be a pain to attempt to write all our code at once, publish it, and then import it into a new project only to find out we have an error. 
 
@@ -155,11 +167,29 @@ You should see a message displayed on the screen in your browser!
 
 As you make changes to `DemoComponent`, you should see them update immediately in your browser as long as your test environment is running.
 
-### Documentation
+### Documentation Principles
 
-*UNDER CONSTRUCTION ):*
+**Clarity**
 
-### Publish!
+It is very important that someone using your component knows exactly what is does, why it's useful, and how to interface with it. Your README.md needs to make this explicit from the outset.
+
+**Provide an Example**
+
+You should provide a simple example of code which demonstrates a real use case.
+
+**Props Glossary**
+
+If your component uses `props` provide a table of each prop, its default value, and a brief description:
+
+Prop | Default Value | Description | Required
+--- | --- | --- | ---
+propName | `null` | Lorem Ipsum | `true`
+
+**Gotchas**
+
+Explain any other gotchas or caveats that may not be obvious to the developers using your module. For example, if you style a module to only fit the height / width of its containing element, mention it!
+
+### Publish
 
 Once you are happy with how your component works and your documentation is complete, you're ready to publish!
 
