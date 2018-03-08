@@ -16,8 +16,8 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Your name",
-    "email": "Your@email.com"
+    "name": "Ben Turner",
+    "email": "bbgrabbag@gmail.com"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
