@@ -157,6 +157,8 @@ As you make changes to `DemoComponent`, you should see them update immediately i
 
 ### Documentation
 
+*UNDER CONSTRUCTION ):*
+
 ### Publish!
 
 Once you are happy with how your component works and your documentation is complete, you're ready to publish!
